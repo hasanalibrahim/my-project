@@ -1,11 +1,3 @@
-// إضافة بعض الوظائف التفاعلية
-document.addEventListener("DOMContentLoaded", function() {
-    const demoElement = document.getElementById("demo");
-    demoElement.addEventListener("click", function() {
-        demoElement.textContent = "You clicked the paragraph!";
-    });
-});
-
 
 class PointerParticle {
   constructor(spread, speed, component) {
